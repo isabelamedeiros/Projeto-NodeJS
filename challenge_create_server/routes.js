@@ -1,8 +1,6 @@
     const server = ((req,res) => {
     const url = req.url;    
     const method = req.method;
-
-    
     
     if (url === '/'){
         res.setHeader('Content-Type', 'text/html');
